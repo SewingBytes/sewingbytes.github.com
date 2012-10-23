@@ -1,0 +1,217 @@
+@media screen and (max-width: 980px) {
+
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	.pagewidth {
+		max-width: 94%;
+	}
+		
+	/* content */
+	#content {
+		margin: 7% 0 5%;
+	}
+	.sidebar1 #content {
+		max-width: 67.8%;
+	}
+	
+	/* sidebar */
+	#sidebar {
+		margin: 7% 0 5%;
+		max-width: 26.2%;
+	}
+	#sidebar .secondary {
+		max-width: 47%;
+	}
+	
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2,
+	.col4-3,
+	.col3-1,
+	.col3-2,
+	.col2-1
+	{
+		margin-left: 2%;
+	}
+	.col4-1 {
+		max-width: 23%;
+	}
+	.col4-2, .col2-1 {
+		max-width: 48%;
+	}
+	.col4-3 {
+		max-width: 72%;
+	}
+	.col3-1 {
+		max-width: 31%;
+	}
+	.col3-2 {
+		max-width: 62%;
+	}
+	
+
+	/************************************************************************************
+	SLIDER
+	*************************************************************************************/
+	#slider img {
+		max-width: 98.5%;
+	}
+
+	/************************************************************************************
+	LAYOUTS
+	*************************************************************************************/	
+	/* grid4 */
+	.grid4 .post {
+		width: 23.125%;
+		margin-left: 2.5%;
+	}
+
+	/* grid3 */
+	.grid3 .post {
+		width: 31%;
+		margin-left: 3.5%;
+	}
+
+	/* grid2 */
+	.grid2 .post {
+		width: 48%;
+		margin-left: 3.75%;
+	}
+
+}
+
+@media screen and (max-width: 760px) {
+
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	#content {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	/* sidebar */
+	#sidebar {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	/************************************************************************************
+	HEADER
+	*************************************************************************************/
+	/* reset absolute elements to static */
+	#header .social-widget, #site-logo, #site-description, #main-nav  {
+		position: static !important;
+		float: none;
+		clear: both;
+	}
+	
+	/* header */
+	#header {
+		height: auto !important;
+		padding-top: 10px;
+	}
+		
+	/* social widget */
+	#header .social-widget {
+		padding: 5px 0 20px;
+	}
+
+	/* search form */
+	#header #searchform {
+		position: absolute;
+		top: 0;
+		left: inherit;
+		right: 0;
+		width: 150px;
+	}
+	#header #searchform #s {
+		float: right;
+		width: 85px;
+	}
+	#header #searchform input#s:focus {
+		width: 150px;
+	}
+	
+	/* site logo */
+	#site-logo {
+		padding-right: 100px;
+		margin: 0 0 10px;
+	}
+	#site-logo a {
+		font-size: 30px;
+	}
+
+	/* site description */
+	#site-description {
+		margin: 0 0 10px;
+	}
+
+	/************************************************************************************
+	MAIN NAV
+	*************************************************************************************/
+	#main-nav {
+		height: auto;
+		margin: 10px 0;
+	}
+	#main-nav a {
+		padding-bottom: 10px;
+	}
+	
+	/************************************************************************************
+	HOME HIGHLIGHTS
+	*************************************************************************************/
+	.home-highlights .home-highlights-content {
+		overflow: visible;
+	}
+
+	/************************************************************************************
+	FOOTER
+	*************************************************************************************/
+	.footer-nav {
+		padding-right: 200px;
+	}
+	.footer-nav li {
+		margin: 0 8px 5px 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	/************************************************************************************
+	LAYOUTS
+	*************************************************************************************/
+	/* reset all post layouts to fullwidth */
+	.grid4 .post, 
+	.sidebar1 .grid4 .post,
+	.grid3 .post, 
+	.sidebar1 .grid3 .post,
+	.grid2 .post, 
+	.sidebar1 .grid2 .post,
+	.grid2-thumb .post, 
+	.sidebar1 .grid2-thumb .post
+	{
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+	
+}
+
+
+@media screen and (min-width: 481px) {
+
+	/* ensure #nav and #searchform is visible on desktop version */
+	#main-nav,
+	#headerwrap #searchform {
+		display: block !important;
+	}
+}

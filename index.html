@@ -1,0 +1,22 @@
+---
+layout: default
+title: Jekyll Base
+---
+
+
+<h1 class="page-title">Projects</h1>
+{% for post in site.posts %}
+<article id="post-963" class="post-963 post type-post status-publish format-standard hentry category-blog post clearfix" style="margin-left: 0px; ">
+<figure class="post-image"><a href="{{post.url}}"><img src="{{post.image}}" alt="{{post.title}}" width="464" height="250"></a></figure>
+<!-- /.post-image -->
+	<div class="post-content">
+        <time datetime="2011-08-11" class="post-date" pubdate="">{{post.date | date: "%B %e, %Y"}}</time>
+        <h1 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h1>
+        <p class="post-meta"> 
+            <span class="post-author">by {{post.author}}</span>
+            <span class="post-category"><a href="" title="View all posts in Blog" rel="category tag">{{post.category}}</a></span>
+        </p>
+	</div>
+	<!-- /.post-content -->
+</article>
+{% endfor %}
