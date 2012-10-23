@@ -1,5 +1,5 @@
 ---
-layout: portfolio_entry
+layout: post
 image: /img/trouser_strap_sm.jpg
 title: Trouser strap from scraps
 category: Sewing

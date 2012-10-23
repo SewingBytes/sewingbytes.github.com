@@ -1,5 +1,5 @@
 ---
-layout: portfolio_entry
+layout: post
 image: http://dummyimage.com/448x252/474747/fff.png
 title: Sewing Machine Addict
 category: Machines
