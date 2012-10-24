@@ -48,7 +48,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 GENERAL STYLING
 *************************************************************************************/
 body {
-	font: .81em/150% Georgia, "Times New Roman", Times, serif;
+/*	font: .81em/150% Georgia, "Times New Roman", Times, serif; */
+    font-family: Bitter, Georgia, serif;
 	background: #eeeee2 url(/img/bg.png);
 	color: #666;
 }
@@ -276,7 +277,7 @@ HEADER
 *************************************************************************************/
 #headerwrap {
 	background: url(/img/upperwrap-bg.gif) repeat-x center bottom;
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 }
 .home #headerwrap {
 	border-bottom: 0;
@@ -284,7 +285,7 @@ HEADER
 #header {
 	position: relative;
 	height: 90px;
-//	color: #bcc3c9;
+/*	color: #bcc3c9; */
 	color: #FAB117;
 	z-index: 100;
 }
@@ -537,8 +538,8 @@ a.carousel-disabled {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline;*/
 }
 /* pager button */
 .flex-control-nav a {
@@ -771,8 +772,8 @@ POST
 	font-size: 80%;
 	text-transform: uppercase;
 	display: inline-block;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline; */
 }
 
 /* grid4 post */
@@ -918,8 +919,8 @@ PAGE NAVIGATION
 	margin: 0 3px;
 	vertical-align: middle;
 	display: inline-block;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline; */
 }
 .pagenav a {
 	background: #333;
@@ -1255,8 +1256,8 @@ SOCIAL WIDGET
 }
 .social-widget .widget {
 	display: inline-block;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline; */
 	margin: 0 5px 0 0;
 }
 .social-widget .widget div {
@@ -1270,8 +1271,8 @@ SOCIAL WIDGET
 	letter-spacing: 0;
 	position: static;
 	display: inline-block;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline; */
 	margin: 5px 8px 2px 0;
 	padding: 0;
 	background: transparent;
@@ -1288,8 +1289,8 @@ SOCIAL WIDGET
 	padding: 0 2px 5px 0;
 	margin: 0;
 	display: inline-block;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline; */
 	border: none !important;
 	clear: none;
 	line-height: 100%;
@@ -1307,8 +1308,8 @@ SOCIAL WIDGET
 	background: url(images/rss.png) no-repeat left center;
 	padding: 10px 0 10px 40px;
 	display: inline-block;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline; */
 }
 
 /************************************************************************************
@@ -1466,8 +1467,8 @@ GALLERY
 	margin: 0 12px 10px 0;
 	display: inline-block;
 	vertical-align: top;
-	zoom:1;
-	*display:inline;
+/*	zoom:1; */
+/*	*display:inline; */
 	width: auto;
 	float: none;
 	text-align: center;
@@ -1531,4 +1532,5 @@ CLEAR & ALIGNMENT
 { display: inline-block; }
 /* clearfix for ie7 */
 .clearfix, .widget li, #body, #footer, footer, .pagenav, #main-nav, #main-nav, .menu, .gallery, #content
-{ display: block; zoom: 1; }
+{ display: block; }
+/*{ display: block; zoom: 1; }*/
