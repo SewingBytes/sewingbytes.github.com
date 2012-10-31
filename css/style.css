@@ -183,6 +183,13 @@ STRUCTURE
     padding-bottom: 40px;
 }
 
+#content img {
+    padding: 2px;
+    background: white;
+    border: solid 1px #EEE;
+    border-bottom-color: #CCC;
+}
+
 /* sidebar */
 #sidebar {
 	width: 252px;
