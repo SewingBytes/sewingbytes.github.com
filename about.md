@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About me
 ---
 Hi, my name is Tim and I like to make things...everything. I am an ASIC
