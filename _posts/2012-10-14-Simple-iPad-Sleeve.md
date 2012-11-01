@@ -2,7 +2,7 @@
 layout: post
 image: img/ipad_sleeve/ipad_in_sleeve_sm.jpg
 index: "0x02"
-title: iPad Sleve
+title: iPad Sleeve
 category: Sewing
 author: Tim
 ---
