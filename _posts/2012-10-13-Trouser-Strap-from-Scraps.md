@@ -1,6 +1,7 @@
 ---
 layout: post
 image: /img/trouser_strap_sm.jpg
+index: "0x01"
 title: Trouser strap from scraps
 category: Sewing
 author: Tim
