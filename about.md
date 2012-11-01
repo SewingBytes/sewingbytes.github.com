@@ -19,5 +19,5 @@ trial and error (the best way to learn) as well as with some help from friends.
 I'm even in a sewing group with some of the mommies from my wifes mommies
 group. None of the other husbands are manly enough to join in thus far.  I
 started this blog at the suggestion of the woman who hosts our sewing group,
-Trihn. It's a place to catalog and describe the projects I've worked on, and
+[Trinh](http://sweetcheeksdesigns.blogspot.com/). It's a place to catalog and describe the projects I've worked on, and
 to show off some cool sewing machines as well. I hope you enjoy it.
