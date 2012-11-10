@@ -5,6 +5,7 @@ index: "0x02"
 title: iPad Sleeve
 category: Sewing
 author: Tim
+comments: True
 ---
 ![iPad sleeve](/img/ipad_sleeve/ipad_in_sleeve.jpg)
 
