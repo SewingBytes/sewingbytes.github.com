@@ -5,6 +5,7 @@ index: "0x01"
 title: Trouser strap from scraps
 category: Sewing
 author: Tim
+comments: True
 ---
 ![Trouser strap on ankle](/img/trouser_strap/ankle.jpg)
 
