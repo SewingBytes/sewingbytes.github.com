@@ -11,7 +11,7 @@ comments: True
 
 Sometimes projects get put off... way off. My wife asked me if I could sew the
 button back onto her jeans a long time ago, 6-12 months ago. Somehow the
-simplest little projects are the hardest to get in to. I generally have a rule
+simplest little projects are the hardest to get done. I generally have a rule
 that if a project takes less than 2 minutes I just do it. I don't write it down
 on a list or put it off at all, I just do it. Sewing a button back on jeans is
 more like a 3 minute project and I don't have any rules for that so finally I'm
@@ -29,8 +29,8 @@ accommodate.
 
 ![Nylon Thread](/img/jeans/thread_sm.jpg)
 
-First thing to do is tie a not or two in the end of the thread so that it won't
-pull through the fabric. 
+First thing to do is tie a knot or two in the end of the thread so that it
+won't pull through the fabric. 
 
 Starting from underneath the fabric I made a series of about 10 loops up and
 over the button hook until it felt secure enough to be tugged on. 
